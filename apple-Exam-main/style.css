@@ -1,0 +1,548 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: "San Francisco";
+}
+
+
+nav {
+    padding: 7px;
+    position: sticky;
+    top: 0;
+    background-color: rgba(255, 255, 255, 0.95);
+    z-index: 1000;
+    backdrop-filter: blur(10px);
+}
+
+nav > ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+nav li {
+    list-style-type: none;
+}
+
+nav li > a {
+    text-decoration: none;
+    font-size: 0.75rem;
+    color: rgba(0, 0, 0, 0.8);
+    transition: color 0.3s;
+}
+
+nav li > a:hover {
+    color: black;
+}
+
+.shekl {
+    font-size: 1rem;
+}
+
+.icon1{
+    width: 129px;
+    height: 93px;
+    background-size: 129px 93px;
+    background-repeat: no-repeat;
+    background-image: url(hero_sticker_mba__b0ht7774wpaq_large.png);
+    position: absolute;
+}
+
+.icon2{
+    width: 129px;
+    height: 93px;
+    background-size: 129px 93px;
+    background-repeat: no-repeat;
+    background-image: url(hero_sticker_ipadair__bk6ffplndvte_large.png);
+    position: absolute;
+}
+
+#part1 {
+    background-color: white;
+    background-repeat: no-repeat;
+    height: 60vh;
+    min-height: 385px;
+    background-image: url(hero_bts_2025__kjxalx8t7ia2_large.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.text1, .text2, .text3 {
+    background-color: rgb(22, 156, 240);
+    border-radius: 20px;
+    font-weight: bold;
+    color: white;
+    padding: 10px 15px;
+    margin-left: 10%;
+}
+
+.text1 {
+    font-size: 1.5rem;
+    width: 200px;
+    margin-top: 5px;
+}
+
+.text2 {
+    font-size: 1.5rem;
+    width: 320px;
+    margin-top: 10px;
+}
+
+.text3 {
+    font-size: 1.2rem;
+    width: 200px;
+    margin-top: 15px;
+}
+
+.button {
+    text-decoration: none;
+    border: 1px solid rgb(9, 125, 213);
+    border-radius: 100px;
+    padding: 7px 15px;
+    margin-top: 20px;
+    margin-left: 25%;
+    display: inline-block;
+    color: rgb(9, 125, 213);
+    font-size: 0.8rem;
+    transition: all 0.3s;
+}
+
+.button:hover {
+    background-color: rgb(10, 143, 225);
+    color: white;
+}
+
+
+#mobile, #car {
+    background-repeat: no-repeat;
+    height: 60vh;
+    min-height: 385px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+
+#mobile {
+    background-image: url(hero_iphone_family__fuz5j2v5xx6y_large.jpg);
+}
+
+#car {
+    background-image: url(hero_apple_intelligence_photo_clean_up_startframe__ghogkwwqghaq_large.jpg);
+    height: 100vh;
+    align-items: center;
+}
+
+.bold {
+    font-size: 2.5rem;
+    padding-left: 50px;
+}
+
+.meet {
+    font-size: 1.2rem;
+}
+
+.Bfasele {
+    padding: 15px 0 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.Blern, .Bbuy, .Bwatch, .Blearn, .Bbuyi {
+    border-radius: 40px;
+    padding: 8px 13px;
+    text-decoration: none;
+    font-size: 0.75rem;
+    transition: all 0.3s;
+}
+
+.Blern, .Bwatch {
+    background-color: rgb(10, 143, 225);
+    color: white;
+    border: 1px solid rgb(10, 143, 225);
+}
+
+ .Blearn {
+    color: rgb(10, 143, 225);
+    border: 1px solid white;
+}
+
+
+.Bbuy, .Bbuyi{
+    color: rgb(10, 143, 225);
+    border: 1px solid rgb(10, 143, 225);
+}
+
+.Bbuyi:hover{
+    background-color: rgb(10, 143, 225);
+    color: white;
+}
+
+.Bwatch {
+    background-color: rgba(250, 250, 250, 0.8);
+    color: black;
+    border: 1px solid rgb(250, 250, 250);
+}
+
+.Blearn {
+    color: white;
+    border: 1px solid rgb(250, 250, 250);
+}
+
+.Blern:hover{
+    background-color: rgba(10, 143, 225, 0.9);
+}
+
+.Bwatch:hover{
+    background-color: rgba(255, 255, 2550, 0.9);
+}
+
+.Bbuy:hover{
+    background-color: rgb(10, 143, 225);
+    color: white;
+}
+
+.Blearn:hover{
+    background-color: white;
+    color: black;
+}
+
+.rangi {
+    margin-top: 15px;
+    font-size: 0.9rem;
+    margin-left: 25px;
+}
+
+.InT {
+    font-weight: bold;
+    font-size: 2.5rem;
+    color: white;
+    margin-top: 300px;
+    margin-left: 85px;
+}
+
+.Remo {
+    color: white;
+    font-size: 1.2rem;
+    margin-left: 5px;
+}
+
+.Bcar {
+    margin-top: 10px;
+    margin-left: 120px;
+}
+
+
+.near {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+#IPAD, #AI, #Awatch, #fitness, #trade, #card {
+    flex: 1 1 48%;
+    min-width: 300px;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 30px;
+    margin: 5px 0;
+}
+
+#IPAD {
+    background-image: url(promo_ipadpro_avail__s271j89g8kii_large.jpg);
+    color: white;
+}
+
+#AI {
+    background-image: url(promo_apple_watch_series_10_avail_lte__c70y29goir42_large.jpg);
+    color: white;
+    padding-top: 250px;
+}
+
+#Awatch {
+    background-image: url(promo_apple_watch_series_10_avail_lte__c70y29goir42_large.jpg);
+    color: black;
+}
+
+#fitness {
+    background-image: url(promo_fitness_plus_summer__w4cib69ytcyi_large.png);
+    color: white;
+}
+
+#trade {
+    background-image: url(promo_iphone_tradein__bugw15ka691e_large.jpg);
+    color: black;
+}
+
+#card {
+    background-image: url(promo_apple_card__5cm7draujpey_large.jpg);
+    color: black;
+}
+
+.BAI {
+    margin-right: 130px;
+}
+
+.texti {
+    margin-top: 220px;
+    font-size: 0.6rem;
+}
+
+
+#pooch {
+    height: 60vh;
+    background-color: gray;
+    margin: 0 5%;
+}
+
+#three {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 5% 0;
+    gap: 20px;
+}
+
+#sec1, #sec2, #sec3 {
+    flex: 1 1 30%;
+    min-width: 250px;
+    background-color: pink;
+    height: 250px;
+}
+
+
+#matn {
+    background-color: rgba(0, 0, 0, 0.05);
+    font-size: 0.7rem;
+    padding: 20px 0;
+    margin-top: 35px;
+}
+
+.textf {
+    margin: 0 10%;
+    color: rgba(0, 0, 0, 0.6);
+    line-height: 1.5;
+}
+
+#kenar {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgba(0, 0, 0, 0.05);
+    padding: 20px 10%;
+    line-height: 10px;
+    
+}
+
+.test {
+    list-style-type: none;
+    margin-bottom: 10px;
+    flex: 1 1 20%;
+    min-width: 150px;
+}
+
+.testa {
+    text-decoration: none;
+    font-size: 0.7rem;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.pad {
+    padding-top: 7px;
+}
+
+.bolda {
+    font-weight: bold;
+}
+
+#one {
+    padding: 10px 0;
+    color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.onet {
+    font-size: 0.7rem;
+    margin: 0 10%;
+}
+
+#khat {
+    margin: 0 10%;
+    border: none;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.05);
+    padding: 10px 10%;
+}
+
+.Ftext {
+    font-size: 0.7rem;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.6);
+    margin: 5px 0;
+}
+
+#foot2 {
+    color: rgba(0, 0, 0, 0.7);
+}
+
+@media (max-width: 600px) {
+
+    nav {
+        position: static;
+        backdrop-filter: none;
+        padding: 10px 0;
+    }
+    
+    
+    nav ul {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px 20px;
+        gap: 12px;
+    }
+    
+    nav li a {
+        font-size: 14px;
+        padding: 8px 0;
+        display: block;
+        width: 100%;
+    }
+    
+    .shekl, .shekl2 {
+        display: none;
+    }
+    
+    
+    body {
+        padding-top: 0;
+    }
+    
+   
+    
+    .text1, .text2, .text3 {
+        margin-left: 0;
+        width: 100%;
+        font-size: 18px;
+    }
+    
+    #button {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    
+    
+    #kenar {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+@media (max-width: 1024px) {
+    .text1, .text2, .text3 {
+        margin-left: 5%;
+    }
+    
+    #button {
+        margin-left: 15%;
+    }
+    
+    .InT {
+        margin-top: 200px;
+    }
+}
+
+@media (max-width: 768px) {
+    nav ul {
+        gap: 10px;
+        padding: 5px;
+    }
+    
+    #part1, #mobile, #car {
+        height: 40vh;
+    }
+    
+    .text1, .text2, .text3 {
+        font-size: 1.1rem;
+    }
+    
+    .InT, .bold {
+        font-size: 2rem;
+    }
+    
+    .meet, .Remo {
+        font-size: 1rem;
+    }
+    
+    #IPAD, #AI, #Awatch, #fitness, #trade, #card {
+        height: 400px;
+    }
+    
+    .test {
+        flex: 1 1 30%;
+    }
+}
+
+@media (max-width: 480px) {
+    nav li a {
+        font-size: 0.6rem;
+    }
+    
+    #part1, #mobile, #car {
+        height: 30vh;
+    }
+    
+    .text1, .text2, .text3 {
+        font-size: 0.9rem;
+        margin-left: 5%;
+        width: 60%;
+    }
+    
+    .text2 {
+        width: 80%;
+    }
+    
+    .InT, .bold {
+        font-size: 1.5rem;
+    }
+    
+    .Bfasele, .Bcar {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #pooch {
+        height: 40vh;
+    }
+    
+    #three {
+        flex-direction: column;
+    }
+    
+    .test {
+        flex: 1 1 50%;
+    }
+    
+    footer {
+        flex-direction: column;
+        text-align: center;
+    }
+}
